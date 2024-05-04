@@ -1,0 +1,14 @@
+.navbar-expand-lg .navbar-collapse{
+    flex-direction: row-reverse;
+    flex-basis: auto;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(12 110 253 / 56%) !important;
+}
+.active{
+        
+    border-bottom:2px solid #00f; 
+    transition: transform .35s cubic-bezier(.52,.01,.16,1);
+    
+}
